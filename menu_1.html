@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu varianta 1</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            background-color: #4169e1;
+            border-color: #151b8d;
+            border-width: 4px;
+            border-style: solid;
+            padding-left: 0px;
+        }
+
+        a {
+            font-size: 28px;
+            text-decoration: none;
+            background-color: #4169e1;
+            color: white;
+            display: block;
+            text-align: center;
+        }
+        a:hover {
+            background-color: #151b8d;
+        }
+
+        @media all and (min-width: 992px) {
+            ul {
+                flex-direction: row;
+            }
+            li {
+                flex-grow: 1;
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">Domů</a></li>
+        <li><a href="#">Zajímavosti</a></li>
+        <li><a href="#">Ceník</a></li>
+        <li><a href="#">Fotogalerie</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">Přihlášení</a></li>
+        <li><a href="#">Registrace</a></li>
+
+    </ul>
+</body>
+
+</html>
